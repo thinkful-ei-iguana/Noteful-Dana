@@ -1,5 +1,7 @@
 import React from "react";
-
+import Header from './Header';
+import Sidebar from './side/Sidebar';
+import Content from './center/Content';
 export default class Main extends React.Component {
   
   constructor(props) {
@@ -10,12 +12,12 @@ export default class Main extends React.Component {
   render(){
     return (
       <div className="noteful-routing">
-        <Header
+        {/* <Header
         
         ></Header>
         <Sidebar
         
-        ></Sidebar>
+        ></Sidebar> */}
         <Content
         
         ></Content>
